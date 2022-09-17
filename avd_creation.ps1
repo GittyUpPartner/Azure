@@ -1,6 +1,6 @@
 <#PSScriptInfo
 
-VERSION 1.0
+.VERSION 1.0
 .AUTHOR Seth Golden 
 .RELEASENOTES
 Version 1.0:  Original published version.
