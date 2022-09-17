@@ -12,3 +12,16 @@ Param (
 	[Parameter(Mandatory=$false)]
 	$instances = "1"
 )
+
+$filedatetime = Get-Date -Format FileDateTime
+$logfile = "C:\Somefolder\vdi_creation_$filedatetime.log"
+If($logfile){
+	# do nothing
+	}
+Else{
+	New-Item $logfile -ItemType File -Force
+	}
+
+# create transcript for debugging purposes
+
+Start-Transcript $logfile
