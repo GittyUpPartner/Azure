@@ -1,3 +1,11 @@
+<#PSScriptInfo
+
+VERSION 1.0
+.AUTHOR Seth Golden 
+.RELEASENOTES
+Version 1.0:  Original published version.
+#>
+
 # This script is an example script showing how one can connect up to their Azure tenant via a script in order to generate new virtual desktops in an EXISTING pool.
 
 # Prerequisites:
