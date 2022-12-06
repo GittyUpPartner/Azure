@@ -1,12 +1,13 @@
 <#PSScriptInfo
 
-.VERSION 1.0
+.VERSION 1.1
 .AUTHOR Seth Golden 
 .RELEASENOTES
-Version 1.0:  Original published version.
+Version 1.1:  Original published version.
 #>
 
 # This script is an example script showing how one can connect up to their Azure tenant via a script in order to generate new virtual desktops in an EXISTING pool.
+# This script is more ideal for a situation where you are running automation scripts locally. A separate script is more ideal for Azure Automation.
 
 # Prerequisites:
 # use a service principal (the example assumes that this is being used -- it is a great practice)
